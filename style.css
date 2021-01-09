@@ -1,0 +1,36 @@
+:root{
+    --primary: #123123;
+    --secondary: #321321;
+}
+
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    height: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+
+}
+.inputs button{
+    height: 25px;
+    background-color: var(--primary);
+    color: white;
+    border-width: 0;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.cell{
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+}
